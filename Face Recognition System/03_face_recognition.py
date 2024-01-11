@@ -14,7 +14,7 @@ id = 0
 
 # names related to ids: example ==> Marcelo: id=1,  etc
 names = ["None"] 
-# Read data from the "user_data.txt" file
+# Read data from the "user_data.txt" file to recognize and match with the face
 with open("user_data.txt", "r") as file:
     # Iterate over each line in the file
     for line in file:
