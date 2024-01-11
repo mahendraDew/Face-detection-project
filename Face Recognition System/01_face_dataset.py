@@ -11,7 +11,7 @@ face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 face_id = input('\n enter user id and press <return> ==>  ')
 face_uname = input('\n enter user name and press <return> ==> ')
 
-# Save the user input to a text file
+# Save the user input to a separate text file
 with open("user_data.txt", "a") as file:
     file.write(f"ID: {face_id}, Name: {face_uname}\n")
 
